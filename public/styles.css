@@ -1,0 +1,61 @@
+body {
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  width: 400px;
+  height: 40px;
+  background: #4b9847;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+select,
+input {
+  width: 400px;
+  height: 30px;
+  padding: 5px 0px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.row {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 18px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.new_message {
+  padding: 5px;
+}
+
+#message_input {
+  margin-top: 50px;
+}
+
+.logout {
+  background: rgb(192, 85, 85);
+  cursor: pointer;
+}
